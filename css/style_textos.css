@@ -1,0 +1,39 @@
+/*
+seletor{
+    propriedade: valor;
+    propriedade: valor;
+}
+*/
+
+h3{
+    text-align: center;
+    font-size: 2.2em;
+}
+
+p{
+    font-family:Helvetica;
+    font-size: 1.2em;
+    text-align: justify;
+    line-height: 35px;
+
+}
+
+#paragrafo01{
+
+    margin-left: 200px;
+}
+
+#paragrafo02{
+    margin-right: 200px ;
+}
+/* 
+no class
+*/
+.paragrafos{
+    color: rgb(91, 19, 185);
+}
+
+.especial{
+    background-color: aqua;
+    border-radius: 20px;
+}

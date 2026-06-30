@@ -1,0 +1,97 @@
+!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto web</title>
+</head>
+<body>
+
+
+    <div id="links">
+        <a href="../index.html">Página inicial</a> | <a href="texto.html">Texto</a> | <a 
+        href="/outras_paginas/outro_texto.html">Outro Texto</a> | <a href="cadastro.html">
+        Cadastro</a> | <a 
+        href="listas.html">Lista</a> | <a href="tabela.html">Tabela</a> | <a href="imagens.
+        html">Imagens</a>
+        </div>
+
+
+    <div id= "div-form">
+        <h3>Formulario html</h3>
+
+
+     <form name="form pessoa" id="form pessoa" nethod="post">
+
+
+     <label for="name">Nome</label>
+     <input type="text" name="nome" class="input-txt01" maxlength="30" required placeholder="informe seu nome"> <br><br>
+
+
+     <label for="Cpf">Cpf</label>
+     <input type="number" name="Cpf" class="input-txt02" maxlength="14" required placeholder= "informe o seu cpf"><br><br>
+
+
+     <label for="cpf">CPF</label>
+     <input type="text" name="cpf" id="cpf" class="input-txt02" maxlength="14" required pattern="[0-9]{3}\.[0-9]{3}\.[0-9]{3}-[0-9]{2}" placeholder="000.000.000-00"><br><br>
+
+     <label for="sexo">Sexo</label><br><br>
+     <input type="radio" name="sexo" id="sxF" class="input-radio" value="F"> Feminino<br><br>
+     <input type="radio" name="sexo" id="sxM" class="input-radio" value="M"> Masculino<br><br>
+     <input type="radio" name="sexo" id="sxND" class="input-radio" value="N"> Não Declarar<br><br>
+    
+
+      <select name="estado" id="estado" class="input-txt02" required>
+        <option>Selecione o estado</option>
+        <option value="Al" >Alagoas</option>
+        <option value="BA" >Bahia</option>
+        <option value="PB" >Paraiba</option>
+        <option value="RN" >Rio grande do norte</option>
+        <option value="CE" >Ceara</option>
+        <option value="Pi" >Piaui</option>
+        <option value="Ma" >Maranhão</option>
+        <option value="Se" >Sergipe</option>
+      </select><br><br><br>
+        
+
+      <label for="preferencias">Preferências</label><br>
+      <input type="checkbox" name="estudo" class="input-check" id="estudo" value="Estudo">Estudo<br>
+      <input type="checkbox" name="viagem" class="input-check" id="viagem" value="viagem">Viagem<br>
+      <input type="checkbox" name="trabalho" class="input-check" id="trabalho" value="trabalho">Trabalho<br>
+      <input type="checkbox" name="compras" class="input-check" id="compras" value="compras">Compras<br><br>
+      
+      <label for="comentario">Comentário</label><br>
+      <textarea name="comentario" id="comentario"></textarea><br><br><br>
+
+      <label for="senha">Senha</label><br>
+      <input type="password" name="senha" id="senha" class="input-tx02" required placeholder="Informe uma senha" maxlength="6"><br><br>
+
+      <label for="datanascimento">Data de Nascimento</label><br>
+      <input type="date" name="datanascimento" id="datanascimento" class="input-tx02" required><br><br><br>
+
+      <label for="quantidade">Quantidade</label>
+      <input type="range" name="quantidade" id="quantidade" class="imput-tx02" min="0" max="10" value="6"><br><br>
+
+      <button type="submit" id="btn-Enviar" class="btn">Enviar</button>
+      <button type="reset" id="btn-Limpar" class="btn">Limpar</button>
+      <button id="btn" class="btn">Botão</button>
+
+
+
+
+
+
+
+
+     </form>
+        
+    
+    
+    
+    
+    
+    </div>
+</body>
+
+
+</html>
